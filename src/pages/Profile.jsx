@@ -4,16 +4,18 @@ import Layout from '../layout';
 function Profile() {
   return(
     <Layout>
-        <div style={styles.containerWrapper}></div>
+        <div style={styles.containerWrapper}>
         <div style={styles.container}>
           <div style={styles.avatarSection}></div>
            <img src="https://avatars.githubusercontent.com/u/184513984?s=400&u=7a7e40205732c4fd08a1723856cf5369c59fbba5&v=4" alt="" style={styles.avatar}  />
-           <div>
+           <div style={styles.descriptionSection}>
+            <h2>Estudante de TI</h2>
             <p style={styles.Text}>
               Tenho paixão por tecnologia e programação, sempre buscando aprender e compartilhar conhecimento, 
-              Estou estudando para me tornar um desenvolvedor Full Stack, desenvolvedor de React, JavaScritp, Node.js e Python.
+              estou estudando para me tornar um desenvolvedor Full Stack, desenvolvedor de React, JavaScritp, Node.js e Python.
             </p>
            </div>
+        </div>
         </div>
     </Layout>
   )
@@ -41,7 +43,6 @@ containerWrapper: {
   },
   avatarSection: {
     display: 'flex',
-    flex:  '0 0 200px',
     justifyContent: 'center',
   },
   avatar: {
@@ -50,11 +51,18 @@ containerWrapper: {
     borderRadius: '50%',
     boxShadow: '0 4px 12px rgba(225, 225, 225, 0.2)',
   },
-  Text:
-  { color: 'rgba(255, 255, 255, 0.7)',
+  Text: {
+     color: 'rgba(255, 255, 255, 0.7)',
     fontSize: '1.1rem',
     margin: 0,
-    textAlign: 'left',}
+    textAlign: 'left',
+  },
+  descriptionSection: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '16px',
+  }
 }
   
 export { Profile }
