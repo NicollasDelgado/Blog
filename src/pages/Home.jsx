@@ -24,7 +24,7 @@ const [hovered, setHovered] = useState(false)
                ? '0 6px 16px rgba(1, 196, 255, 0.86)'
                : '0 4px 12px #000000',
             }}
-            onClick={() => navigate('/portfolio')}
+            onClick={() => navigate('/profile')}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
           >
@@ -132,7 +132,17 @@ const styles = {
     height: '32px',
     filter: 'brightness(0) invert(1)'
   },
+  avatarSection: {
+    display: 'flex',
+    flex:  '0 0 200px',
+    justifyContent: 'center',
+  },
+  avatar: {
+    width: '200px',
+    height: '200px',
+    borderRadius: '50%',
+    boxShadow: '0 4px 12px rgba(225, 225, 225, 0.2)',
+  },
 }
 
 export { Home }
-export default Home
