@@ -2,6 +2,10 @@
 
 Este é um projeto de blog desenvolvido em [descreva a tecnologia utilizada, ex: Node.js, React, etc.].
 
+## Acesse o site
+
+[https://NicollasDelgado.github.io/Blog/](https://NicollasDelgado.github.io/Blog/)
+
 ## Funcionalidades
 
 - Publicação de posts

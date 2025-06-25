@@ -1,9 +1,16 @@
-import { AppRoutes } from './shared/routes'
-function App() {
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
+function App() {
   return (
-    <AppRoutes />
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* Adicione outras rotas aqui */}
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
