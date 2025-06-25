@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Layout = ({ children, title }) => {
+function Layout({ children, title }) {
   return (
     <div style={styles.wrapper}>
       <style>
@@ -41,4 +41,4 @@ const styles = {
   },
 }
 
-export { Layout }
+export default Layout

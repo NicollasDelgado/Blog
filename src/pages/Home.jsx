@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import { Layout } from '../layout'
+import React, { useState } from 'react';
+import { Layout } from '../layout';
 import { useNavigate } from 'react-router-dom'
 
 function Home() {

@@ -4,10 +4,9 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Blog">
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Adicione outras rotas aqui */}
       </Routes>
     </BrowserRouter>
   );
