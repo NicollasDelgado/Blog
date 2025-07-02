@@ -1,6 +1,6 @@
 # Blog
 
-Este é um projeto de blog desenvolvido em [descreva a tecnologia utilizada, ex: Node.js, React, etc.].
+Este é um projeto de blog desenvolvido em React, Node, Node_Modules, HTML, JS, CSS.
 
 ## Acesse o site
 
